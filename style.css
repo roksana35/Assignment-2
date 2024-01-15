@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Work+Sans:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+header{
+    background-color: #FFF;
+    
+    
+
+}
+nav{max-width: 1200px;
+    /* border: 1px solid blue; */
+    display: flex;
+    
+
+    
+}
+.nav-conteiner{
+    min-height: 70px;
+    /* border: 1px solid red; */
+    color: #131318;
+font-size: 30px;
+font-weight: 800;
+display: flex;
+align-items: center;
+width: 50%;
+/* border: 1px solid red; */
+justify-content: center;
+
+
+}
+.nav-conteiner span{
+    color: #FF5400;
+font-size: 36px;
+font-weight: 800;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 90px;
+    
+}
+.nav-item a{
+    text-decoration: none;
+    color: var(--Dark-02, #424247);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.nav-item span{
+    color: #FF5400;
+text-align: center;
+font-size: 18px;
+font-weight: 700;
+}
+.banner-section{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1100px;
+    height: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 30px 150px;
+    border-radius: 15px;
+
+    
+}
+.banner-title{
+    color: #FFF;
+font-size: 64px;
+font-weight: 800;
+padding-top: 100px;
+
+}
+.banner-describstion{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+margin-top: 20px;
+
+}
+.input-field{
+    margin-top: 40px;
+    
+}
+.input-field input,select{
+    width: 150px;
+padding: 10px 30px 10px 13px;
+border-radius: 10px;
+
+
+}
+.input-field .fa-solid{
+    position: relative;
+    left: 30px;
+    color: #FFF;
+    
+}
+.input-field .button{
+    background-color: #FF5400;
+    color: #FFF;
+    
+    
+}
+.section-2{
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+    margin-left: 150px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.section-2-conteiner{
+    
+}
+.section-2-title{
+    color: #131318;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.section-2-text{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+margin-top: 10px;
+}
+
+
+
+
+.section-4{
+    width: 1100px;
+    height: 800px;
+    border: 1px solid blue;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+    .section-title{
+        padding-top: 30px;
+    }
+    .p-text{
+        color: rgba(19, 19, 24, 0.70);
+
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+margin-top: 10px;
+    }
+
+.card-title{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 15px;
+}
+.title-1{
+    font-size: 40px;
+}
+.section-card{
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+}
+.hero,.last-card{
+    width: 400px;
+    height: 280px;
+    border-radius: 16px;
+background-color: rgb(250, 241, 230);
+padding: 20px;
+text-align: left;
+
+}
+.world-class{ 
+    width: 400px;
+    height: 280px;
+    border-radius: 16px;
+border: 1px solid rgba(96, 212, 241, 0.2);
+background-color: rgb(213, 248, 236);
+padding: 20px;
+text-align: left;
+}
+.last-card{
+    margin-left: 350px;
+
+}
