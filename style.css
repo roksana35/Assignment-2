@@ -578,6 +578,7 @@ font-weight: 800;
 @media screen and (max-width:600px) {
     body{
         width: 600px;
+        text-align: center;
     }
     nav{
         padding: 20px;
@@ -702,6 +703,14 @@ font-weight: 800;
     margin: auto;
     padding-left: 30px;
 }
+.newsletter-img{
+    position: relative;
+}
+.newsletter-img button{
+    position: absolute;
+    right: 10px;
+}
+    
 .alian-input{
     margin-left: 80px;
 }
